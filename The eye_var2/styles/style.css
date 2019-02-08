@@ -1,0 +1,688 @@
+@import "fonts.css";
+@import "reset.css";
+
+* {
+ box-sizing: border-box;
+
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ font-family: "Gosha Sans", sans-serif;
+}
+
+
+
+ body {
+   background: black;
+ }
+
+ main {
+   width: 87%;
+   height: 4990px;
+   margin-left: 40px;
+   margin-bottom: 5px;
+   border-top: 3px solid white;
+   border-bottom: 3px solid white;
+ }
+
+ .logo-left {
+   position: fixed;
+   top: 12px;
+   left: 10px;
+   background-image: url("../img/Logo.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 19px;
+   width: 25px;
+ }
+
+header {
+  width: 90vw;
+}
+
+.section-one {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 87%;
+  height: 34px;
+  margin-left: 37px;
+}
+
+.upd {
+  height: 25px;
+  padding-top: 14px;
+  color: #66E0F9;
+  font-family: "Gosha Sans", sans-serif;
+  font-size: 10px;
+ }
+
+.logo-plus {
+  display: block;
+  position: relative;
+  height: 60px;
+  width: 246px;
+  margin: 13px auto 32px;
+}
+
+.slogan {
+  position: absolute;
+  top: 0;
+  left: 51px;
+  font-size: 11px;
+  color: white;
+  width: 171px;
+}
+
+.logo-plus .logo {
+  position: absolute;
+  top: 4px;
+  left: 3px;
+  background-image: url("../img/theeye.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 64px;
+  width: 246px;
+}
+
+.announcement {
+  display: block;
+  width: 70%;
+  font-size: 22px;
+  color: white;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.three-two-zero {
+  color: #B8F3FF;
+  font-size: 39px;
+  margin: 58px auto 32px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.the-eyephone {
+  background-image: url("../img/iphone_supervisor.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 527px;
+  width: 274px;
+  margin: 0 auto 17px;
+}
+
+.the-queu {
+  color: #42F2F7;
+  font-size: 12px;
+  width: 38%;
+  margin: 0 auto 125px;
+  text-align: center;
+}
+
+
+
+h2,
+.mobile-only {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px auto 52px;
+  width: 70%;
+}
+
+.chat,
+.task,
+.webinar {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 58px;
+  height: 58px;
+  margin: 20px auto 27px;
+}
+
+.chat {
+  background-image: url("../img/consult.png");
+}
+
+.task {
+  background-image: url("../img/list.png");
+}
+
+.webinar {
+  background-image: url("../img/webinar.png");
+}
+
+.new-feature p {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto 113px;
+  color: white;
+  width: 70%
+}
+
+.heading {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto 37px;
+  color: #B8F3FF;
+  width: 70%;
+}
+
+.eyephone-one,
+.eyephone-two {
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 200px;
+   height: 395px;
+   margin: 0 auto 18px;
+}
+
+.eyephone-one {
+  background-image: url("../img/iphone_inbox.png");
+}
+
+.eyephone-two {
+  background-image: url("../img/iphone_supervisor.png");
+}
+
+.macbook {
+  display: block;
+  background-image: url("../img/macbook.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 155px;
+  margin: 0 auto 18px;
+}
+
+.instruction {
+  color: white;
+  text-align: center;
+  width: 90%;
+  font-size: 18px;
+  margin: 0 auto 61px;
+}
+
+.is-list {
+   position: relative;
+   width: 82vw;
+   height: 680px;
+ }
+
+ .is-list .first-h4 {
+   position: relative;
+   font-size: 12px;
+   margin-top: 30px;
+   padding: 30px 0 30px;
+   color: #FFFBFC;
+   border-top: 1px solid grey;
+ }
+
+ .is-list h4 {
+   font-size: 10px;
+   padding: 30px 0 30px;
+   color: #FFFBFC;
+   border-bottom: 1px solid grey;
+ }
+
+ .is-big-eye {
+  position: relative;
+  display: block;
+  height: 190px;
+  width: 258px;
+  margin: 0 auto 20px;
+}
+
+.eyebrow {
+  position: absolute;
+  left: calc(7.5%);
+  background-image: url("../img/eyebrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 218px;
+  height: 110px;
+}
+
+ .round {
+   position: absolute;
+   top: 46px;
+   left: calc(25%);
+   width: 128px;
+   height: 128px;
+   display: block;
+   align-items: center;
+   background-color: #B8F3FF;
+   border-radius: 50%;
+   animation: openClose 2.5s linear infinite;
+ }
+
+ @keyframes openClose {
+   0% {
+
+     opacity: 0;
+
+   }
+
+   100% {
+     opacity: 1;
+   }
+
+ }
+
+ footer {
+   display: block;
+   height: 37px;
+   text-align: left;
+   color: #42F2F7;
+   margin-left: 42px;
+   font-family: "Gosha Sans", sans-serif;
+ }
+
+ .center-slogan {
+   display: none;
+ }
+
+ .seven-six-eight {
+   display: none;
+ }
+
+ .news-block {
+   display: none;
+ }
+
+ .first-tablet-instruction,
+ .second-tablet-instruction,
+ .third-tablet-instruction {
+   display: none;
+ }
+
+ /* .tablet-instruction {
+   display: none;
+ } */
+
+ @media (min-width: 768px) {
+
+   main {
+     width: 92%;
+     height: 5945px;
+   }
+
+   .section-one {
+     width: 92%;
+   }
+
+   /* .center-slogan {
+     height: 25px;
+     color: white;
+     font-family: "Gosha Sans", sans-serif;
+     font-size: 10px;
+   } */
+
+   .logo-plus {
+     display: none;
+   }
+
+   .announcement {
+     display: none;
+   }
+
+   .seven-six-eight {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     height: 517px;
+   }
+   .three-two-zero {
+    display: none;
+   }
+
+   .left-box {
+     display: flex;
+     flex-direction: column;
+   }
+   .name-app {
+     display: block;
+     text-align: left;
+     width: 100%;
+     font-size: 86px;
+     font-weight: 700;
+     padding-top: 85px;
+     height: 176px;
+     color: #B8F3FF;
+
+   }
+
+
+
+   .seven-six-eight .left-box {
+     width: 55%;
+   }
+
+   .seven-six-eight .right-box {
+     width: 45%;
+   }
+
+
+   .second-announcement {
+     margin-top: 25px;
+     text-align: left;
+     font-size: 16px;
+     width: 85%;
+     height: 100px;
+     color: white;
+   }
+
+   .second-queu {
+     color: #42F2F7;
+     font-size: 12px;
+     width: 70%;
+     text-align: left;
+   }
+
+   .the-eyephone-first-screen {
+     width: 182px;
+     height: 399px;
+     margin: 58px auto;
+     background-image: url("../img/iphone_inbox.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+   }
+
+  .news-block {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid grey;
+    height: 139px;
+    width: 100%;
+  }
+
+  .features {
+    margin-top: 25px;
+    padding: 16px;
+    font-size: 16px;
+    width: 33%;
+    height: 89px;
+    color: white;
+    text-align: center;
+    border-right: 1px solid grey;
+  }
+
+  .features-last {
+    margin-top: 25px;
+    padding: 16px;
+    font-size: 16px;
+    width: 33%;
+    height: 89px;
+    color: white;
+    text-align: center;
+  }
+  .name-gudget {
+    font-size: 105px;
+    color: #B8F3FF;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 40px;
+  }
+
+ .the-eyephone {
+   height: 1325px;
+   width: 667px;
+ }
+
+ .mobile-only,
+ .new-feature,
+ .mobile-instruction  {
+   display: none;
+ }
+
+ h2 {
+   font-size: 50px;
+   width: 96%;
+   margin: 10px auto 72px;
+ }
+
+ .first-tablet-instruction,
+ .second-tablet-instruction  {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .third-tablet-instruction {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .tablet-third-heading {
+   text-align: center;
+   margin: 0 auto 37px;
+   color: #B8F3FF;
+   width: 100%;
+   font-weight: 700;
+ }
+
+ .tablet-phone {
+   width: 48%;
+ }
+
+ .eyephone-one,
+ .eyephone-two {
+   width: 260px;
+   height: 520px;
+   margin-bottom: 113px;
+ }
+
+ .tablet-text .instruction {
+   font-size: 22px;
+   text-align: left;
+   margin-left: 20px;
+
+ }
+
+ .tablet-text .tablet-heading {
+   margin-left: 20px;
+   margin-bottom: 60px;
+   color: #B8F3FF;
+   text-align: left;
+   width: 85%;
+   font-weight: 700;
+   font-size: 32px;
+
+ }
+
+ /* .third-tablet-instruction .heading {
+   color: #B8F3FF;
+   font-size: 45px;
+   font-weight: 700;
+   width: 100%;
+ } */
+
+ /* .macbook {
+   height: 435px;
+   width: 100%;
+   margin: 0 auto 10px;
+ } */
+
+ .tablet-macbook {
+   display: block;
+   background-image: url("../img/macbook.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 435px;
+   width: 100%;
+   margin: 0 auto 10px;
+ }
+
+ .third-tablet-instruction .instruction {
+   font-size: 35px;
+   margin-bottom: 142px;
+ }
+
+ .is-list .first-h4,
+ .is-list h4 {
+   width: 100%;
+   font-size: 16px;
+ }
+ .is-list {
+   width: 100%;
+   height: 800px;
+ }
+ }
+
+  @media (min-width: 1024px) {
+
+    main {
+      height: 6750px;
+    }
+
+   .name-app {
+     font-size: 100px;
+   }
+
+   .second-announcement {
+     font-size: 18px;
+     margin-bottom: 15px;
+   }
+
+   .the-eyephone-first-screen {
+     height: 489px;
+     width: 245px;
+   }
+
+  .left-box {
+    margin-left: 70px;
+    width: 50%;
+  }
+
+  .seven-six-eight {
+    height: 630px;
+  }
+
+  .features,
+  .features-last {
+    font-size: 18px;
+  }
+
+  .the-queu h4 {
+    font-size: 16px;
+    margin-bottom: 170px;
+  }
+
+
+  .eyephone-one,
+  .eyephone-two {
+    width: 379px;
+    height: 745px;
+  }
+
+  .tablet-text .tablet-heading {
+    font-size: 45px;
+  }
+
+  .third-tablet-instruction .instruction {
+    margin-bottom: 170px;
+  }
+
+  .h2 {
+    font-size: 65px;
+  }
+
+  .tablet-macbook {
+    height: 527px;
+    width: 890px;
+  }
+
+  .is-list .first-h4,
+   .is-list h4 {
+    font-size: 32px;
+  }
+
+  .is-big-eye {
+    margin-top: 100px;
+  }
+
+  }
+
+  @media (min-width: 1440px) {
+
+    main {
+      margin-left: 52px;
+      height: 8900px;
+    }
+
+    .logo-left {
+      height: 25px;
+      width: 36px;
+    }
+
+    .second-queu h4 {
+      font-size: 18px;
+    }
+
+    .name-app {
+      font-size: 140px;
+      margin-bottom: 50px;
+    }
+
+    .second-announcement {
+      font-size: 26px;
+      margin-bottom: 55px;
+    }
+
+    .seven-six-eight {
+      height: 877px;
+    }
+
+    .the-eyephone-first-screen {
+      height: 749px;
+      width: 373px;
+    }
+
+    .upd {
+      font-size: 14px;
+    }
+
+    .features,
+    .features-last {
+      font-size: 22px;
+    }
+
+    .name-gudget {
+      font-size: 145px;
+    }
+
+    .the-eyephone {
+      height: 2050px;
+      width: 1044px;
+    }
+
+    .the-queu h4 {
+      font-size: 18px;
+      margin-bottom: 300px;
+    }
+
+    h2 {
+      font-size: 85px;
+      margin-bottom: 120px;
+    }
+
+    .tablet-text .tablet-heading {
+      font-size: 65px;
+    }
+
+    .tablet-text .instruction {
+      font-size: 45px;
+    }
+
+    .eyephone-one,
+    .eyephone-two {
+      width: 542px;
+      height: 1112px;
+    }
+
+    .tablet-text .instruction,
+    .tablet-text .tablet-heading {
+      margin-left: 50px;
+    }
+
+  }
