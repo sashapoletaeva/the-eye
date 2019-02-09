@@ -117,8 +117,6 @@ header {
   text-align: center;
 }
 
-
-
 h2,
 .mobile-only {
   color: white;
@@ -273,7 +271,7 @@ h2,
    height: 37px;
    text-align: left;
    color: #42F2F7;
-   margin-left: 42px;
+   margin-left: 40px;
    font-family: "Gosha Sans", sans-serif;
  }
 
@@ -613,6 +611,10 @@ h2,
     main {
       margin-left: 52px;
       height: 8900px;
+    }
+   
+   footer {
+      margin-left: 52px;
     }
 
     .logo-left {
